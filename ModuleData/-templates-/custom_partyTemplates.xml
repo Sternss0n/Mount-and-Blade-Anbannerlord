@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <MBPartyTemplate id="kingdom_hero_party_custom_template" >
+      <stacks>
+        <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.custom_recruit" />
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.custom_infantry" />
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.custom_archer" />
+        <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.custom_trained_infantry" />
+        <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.custom_veteran_infantry" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.custom_heavy_infantry" />
+        <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.custom_bowman" />
+        <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.custom_heavy_bowman" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.custom_marksman" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.custom_cavalry" />
+        <PartyTemplateStack min_value="0" max_value="5" troop="NPCCharacter.custom_heavy_cavalry" />
+        <PartyTemplateStack min_value="0" max_value="4" troop="NPCCharacter.custom_spearman" />
+        <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.custom_long_spearman" />
+        <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.custom_pikeman" />
+        <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.custom_noble_nobleman" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="villager_custom_template" >
+      <stacks>
+        <PartyTemplateStack min_value="5" max_value="20" troop="NPCCharacter.village_woman_custom" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="militia_custom_template" >
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.custom_militia_spearman" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.custom_militia_archer" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="caravan_template_custom" >
+    <stacks>
+      <PartyTemplateStack  min_value="8" max_value="8" troop="NPCCharacter.armed_trader_custom" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_custom" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_custom" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="elite_caravan_template_custom" >
+    <stacks>
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_custom" />
+      <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_custom" />
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_custom" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_custom" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="char_creation_caravan_template_custom" >
+    <stacks>
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.armed_trader_custom" />
+      <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.caravan_guard_custom" />
+      <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.veteran_caravan_guard_custom" />
+      <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.caravan_master_custom" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="char_creation_player_party_template_custom" >
+    <stacks>
+      <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.custom_trained_infantry" />
+      <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.custom_archer" />
+      <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.custom_trained_infantry" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="kingdom_hero_party_mercenary_custom_template" >
+    <stacks>
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.legion_of_the_betrayed_tier_3" />
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.legion_of_the_betrayed_tier_2" />
+      <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.legion_of_the_betrayed_tier_1" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="vassal_reward_troops_custom" >
+    <stacks>
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.custom_noble_man_at_arms" />
+      <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.custom_noble_squire" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="rebels_custom_template" >
+    <stacks>
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.custom_recruit" />
+    </stacks>
+  </MBPartyTemplate>
+</partyTemplates>
