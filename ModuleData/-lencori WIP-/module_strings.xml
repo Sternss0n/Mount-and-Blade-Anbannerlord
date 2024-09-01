@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+    <!-- Culture String -->
+    <string id="str_culture_description.custom" text="A newly founded culture by a new challenger" />
+    <string id="str_culture_rich_name.custom" text="Customs" />
+    <string id="str_faction_formal_name_for_culture.custom" text="Custom Kingdom" />
+    <string id="str_faction_informal_name_for_culture.custom" text="the Custom" />
+    <string id="str_adjective_for_culture.custom" text="Custom" />
+    <string id="str_neutral_term_for_culture.custom" text="Customs" />
+    <string id="str_faction_official.custom" text="Lord" />
+    <string id="str_faction_official.custom_f" text="Lady" />
+</strings>
